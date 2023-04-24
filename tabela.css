@@ -1,0 +1,97 @@
+*{
+    margin: 0; /* Zerando as margems*/
+    font-family: Arial, Helvetica, sans-serif; /* Mudando as fontes */
+    font-weight: normal; /* Mudando o peso da fonte */
+    font-size: 16px; /* Mudando o tamanho da fonte */
+}
+body{
+    background-color: rgb(240, 240, 240); /* Mudando o fundo da tabela */
+}
+
+.header{
+    background-color: #162E58; /* Fundo da div header */
+    color: white; /* Mudando a cor da fonte para branco */
+}
+.header h1{
+    padding-top: 20px; /* Espaçamento do padding 20 px cima */
+    padding-left: 40px; /* Espaçamento do padding 40px esquerda */
+}
+.header h2{
+    text-align: center; /* Alinhando o texto para o centro */
+    margin-top: 40px; /* Ajustando a margem de cima 40 px */
+    padding-bottom: 10px; /* Espaçamento do padding 10 px baixo */
+    font-size: 12px;
+    cursor: pointer; /* Deixando o cursor "interativo" */
+}
+.grupos, .gols{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+
+}
+.grupos h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight:bold;
+    padding: 4px;
+}
+table{
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+}
+th{
+    color: #70757a; /* cor da fonte do th */
+}
+td{
+    border-top: 1px solid rgb(240, 240, 240); /* Cor da "linha" da tabela */
+}
+.img-club{ /* Ajustando a img dos clubles com altura e largura */
+    width: 24px;
+    height: 24px;
+}
+.left{ /* class para direcionar para a esquerda */
+    text-align: left;
+}
+.right{ /* class para direcionar para a direito */
+    text-align: right;
+    padding-right: 30px;
+}
+.bl-blue{
+    border-left: #4285F4 3px solid; /* class para fazer classificação */
+}
+.bl-orenge{
+    border-left:#FA7B17 3px solid; /* class para fazer classificação */
+}
+.w200{
+    width: 200px; /* class para direcionar para a esquerda */
+}
+.w{
+    width: 150px;
+}
+.gols h2{
+    text-align: center;
+    margin-top: 3px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: #162E58;
+    color: white;
+}
+.gols h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    padding: 4px;
+    
+}
+.img-jogaodr{ /* class para ajustar a img do jogador */
+    width: 36px;
+    height: 36px;
+    border-radius: 50%; /* deixnado a foto redonda*/
+}
+.w40{
+    width: 40px;
+}
